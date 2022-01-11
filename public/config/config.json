@@ -1,0 +1,19 @@
+{
+  "CONTRACT_ADDRESS": "0xF29C07C60F71276d80062443644787Cb587EAE46",
+  "SCAN_LINK": "https://etherscan.io/address/0xF29C07C60F71276d80062443644787Cb587EAE46",
+  "NETWORK": {
+    "NAME": "Ethereum",
+    "SYMBOL": "Eth",
+    "ID": 1
+  },
+  "NFT_NAME": "FUTURE PUNKZ",
+  "SYMBOL": "FUTURE PUNKZ",
+  "MAX_SUPPLY": 4444,
+  "WEI_COST": 40000000000000000,
+  "DISPLAY_COST": 0.04,
+  "GAS_LIMIT": 285000,
+  "MARKETPLACE": "Opeansea",
+  "MARKETPLACE_LINK": "https://opensea.io/collection/future-punkz-genesis",
+  "SHOW_BACKGROUND": true,
+  "MAX_PER_TX": 7
+}

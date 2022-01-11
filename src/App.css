@@ -1,0 +1,323 @@
+:root {
+  --infoColor: #abfffe;
+  --blackColor: #000;
+  --whiteColor: #fff;
+  --darkInfoColor: #1ffffc;
+}
+
+@font-face {
+  font-family: ThaleahFat;
+  src: url(../src/fonts/ThaleahFat.ttf);
+}
+
+body {
+  font-family: ThaleahFat;
+  background-color: var(--blackColor);
+  color: #fff;
+}
+a {
+  font-family: ThaleahFat;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-weight: 500;
+}
+
+/* <<<<<<<--------HEADER------->>>>>>>  */
+.Header {
+  padding: 1em 0;
+}
+.Header img {
+  width: 300px;
+}
+.Header .nav-link {
+  color: var(--darkInfoColor) !important;
+  text-transform: uppercase;
+  margin: 0 0.5em;
+  font-size: 1.5em;
+}
+
+/* <<<<<<<--------HERO SECTION------->>>>>>>  */
+.HeroSection {
+  text-align: center;
+  padding: 2em 0;
+}
+.HeroSection .mainText {
+  font-size: 1.5em;
+  color: var(--whiteColor);
+  margin: 1.5em auto;
+}
+.HeroSection .mint-section {
+  margin-top: 30px;
+}
+
+.HeroSection .price {
+  color: var(--darkInfoColor);
+  margin: 1.3em auto;
+  font-size: 1.3em;
+}
+.HeroSection .mintBtn {
+  background-color: var(--darkInfoColor);
+  margin: 1em auto;
+  text-decoration: none;
+  color: var(--blackColor);
+  padding: 0.5em 1.9em;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+.Images img {
+  width: 150px;
+  margin: 0.3em;
+}
+
+/* <<<<<<<--------GAME SECTION------->>>>>>>  */
+.Game {
+  padding: 2em 0;
+  color: var(--whiteColor);
+}
+.Game .subText {
+  font-size: 1.3em;
+  color: var(--darkInfoColor);
+}
+
+.GameCards img {
+  width: 400px;
+}
+.GameCards .cards li {
+  list-style-type: none;
+  margin-left: -29px;
+}
+.GameCards .cards .titleName {
+  margin: 0.3em 0;
+  font-weight: 500;
+}
+.GameCards .firstCard,
+.GameCards .secondCard,
+.GameCards .thirdCard {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 0.3em;
+}
+.GameCards .firstCard {
+  background-color: hsl(55, 29%, 42%);
+  box-shadow: 0px 0px 8px 2px #8b864c;
+}
+.GameCards .secondCard {
+  background-color: #5b7f3e;
+  box-shadow: 0px 0px 8px 2px #5b7f3e;
+}
+.GameCards .thirdCard {
+  background-color: #131b28;
+  box-shadow: 0px 0px 8px 2px #131b28;
+}
+
+/* <<<<<<<--------STORY SECTION------->>>>>>>  */
+.Story {
+  padding: 2em 0;
+  color: var(--whiteColor);
+}
+.Story img {
+  margin: 0.5em 0;
+}
+.Story .subText {
+  font-size: 1.3em;
+  color: var(--darkInfoColor);
+}
+
+/* <<<<<<<--------ROADMAP SECTION------->>>>>>>  */
+.Roadmap {
+  padding: 2em 0;
+  color: var(--whiteColor);
+}
+.Roadmap .subText {
+  font-size: 1.3em;
+  margin: 1em 0;
+  color: var(--darkInfoColor);
+}
+.borderOne,
+.borderTwo,
+.borderThree {
+  padding: 1.5em;
+  margin: 2em 0;
+}
+.borderOne {
+  border: 2px solid #8b864c;
+}
+.borderTwo {
+  border: 2px solid #5b7f3e;
+}
+.borderThree {
+  border: 2px solid #131b28;
+}
+
+/* <<<<<<<--------TEAM SECTION------->>>>>>>  */
+.Team {
+  padding: 2em 0;
+  color: var(--whiteColor);
+}
+.Team h1 {
+  margin-bottom: 2em;
+}
+.Team h5 {
+  margin: 0.5em 0;
+}
+.Team img {
+  width: 300px;
+}
+.Card1,
+.Card2,
+.Card3,
+.Card4,
+.Card5,
+.Card6 {
+  padding: 0.3em;
+  box-shadow: 0px 0px 8px 2px #7f7b43;
+}
+.Team .Card1 {
+  background-color: #7f7b43;
+  box-shadow: 0px 0px 8px 2px #7f7b43;
+}
+.Team .Card2 {
+  background-color: #46051f;
+  box-shadow: 0px 0px 8px 2px #46051f;
+}
+.Team .Card3 {
+  background-color: #3c7365;
+  box-shadow: 0px 0px 8px 2px #3c7365;
+}
+.Team .Card4 {
+  background-color: #557434;
+  box-shadow: 0px 0px 8px 2px #557434;
+}
+.Team .Card5 {
+  background-color: #1a7485;
+  box-shadow: 0px 0px 8px 2px #1a7485;
+}
+.Team .Card6 {
+  background-color: #095664;
+  box-shadow: 0px 0px 8px 2px #3c7365;
+}
+
+/* <<<<<<<--------FOOTER SECTION------->>>>>>>  */
+.Footer {
+  padding: 2em 0 6em 0;
+  text-align: center;
+  color: var(--whiteColor);
+}
+.Footer p {
+  font-size: 1.2em;
+}
+
+/* <<<<<<<--------MINT SECTION------->>>>>>>  */
+.Mint {
+  padding: 2em 0;
+}
+.Mint .subText {
+  margin: 1em 0;
+  color: var(--darkInfoColor);
+  font-size: 1.3em;
+}
+.Mint .mainHeading {
+  margin: 1em 0;
+}
+.Mint .numberBtn {
+  margin-bottom: 0.5em;
+  margin-top: 3.5em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  max-width: 400px;
+  background-color: var(--darkInfoColor);
+  padding: 1px;
+  color: var(--blackColor);
+}
+
+.supplyNo {
+  padding: 0 48px;
+}
+.Mint .numberBtn span {
+  font-size: 1em !important;
+  margin: 1em 0.7em 0 0.7em;
+}
+.Mint .numberBtn .darkBtn {
+  background-color: var(--blackColor);
+  color: var(--whiteColor);
+  padding: 1em 1.5em;
+}
+
+.Mint .connectBtn {
+  display: block;
+  width: 400px;
+  padding: 1em 0;
+  text-align: center;
+  margin: 2em 0;
+  text-decoration: none;
+  color: var(--whiteColor);
+  background-color: var(--blackColor);
+  border: 1px solid var(--darkInfoColor);
+  cursor: pointer;
+}
+.Mint .logoBrand {
+  text-decoration: none;
+  display: block;
+  position: absolute;
+  /* margin-bottom: 4em; */
+}
+.Mint .logoBrand img {
+  width: 300px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .Mint .connectBtn {
+    width: 200px;
+
+  }
+
+  .supplyNo {
+    padding: 0 28px;
+  }
+
+  .supplyNo > h1 {
+    padding-top: 10px;
+  }
+  .Mint .numberBtn .darkBtn {
+    
+    padding: 1em 0.5em;
+  }
+  .Mint .numberBtn {
+    margin-bottom: 0.5em;
+    margin-top: 3.5em;
+    
+    max-width: 300px;
+   
+  }
+}
+/* Slider Section */
+.Mint .slick-list {
+  height: 93vh !important;
+  overflow: hidden;
+}
+.Mint .counter {
+  width: 300px;
+  display: flex;
+  border: 1px solid var(--darkInfoColor);
+}
+.Mint .counter button {
+  background-color: var(--darkInfoColor);
+  border: none;
+  color: var(--blackColor);
+  font-size: 2em;
+  padding: 0.3em 0.7em;
+  cursor: pointer;
+}
+.Mint .counter span {
+  width: 100%;
+  align-self: center;
+  font-size: 1.5em;
+}

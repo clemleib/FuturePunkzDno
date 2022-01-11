@@ -1,0 +1,26 @@
+@font-face {
+    font-family: '8bit';
+    src: local('8-bit wonder'), url(../fonts/8_bit_wonder.TTF) format('truetype');
+    /* other formats include: 'woff2', 'truetype, 'opentype',
+                              'embedded-opentype', and 'svg' */
+  }
+
+  @font-face {
+    font-family: "Vermin Vibes 1989";
+    src: local("Vermin vibes"),
+      url(../fonts/Vermin\ Vibes\ 1989.ttf) format("truetype");
+  }
+
+  @font-face {
+    font-family: "ThaleahFat";
+    src: local("ThaleahFat"),
+      url(../fonts/ThaleahFat.ttf) format("truetype");  
+  }
+
+  .thaleahFat {
+    font-family: "ThaleahFat", sans-serif;
+  }
+
+  .vermin {
+    font-family:  "Vermin Vibes 1989" , sans-serif;
+  }
